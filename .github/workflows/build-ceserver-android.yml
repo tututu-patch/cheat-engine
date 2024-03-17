@@ -9,7 +9,7 @@ jobs:
   build:
     strategy:
       matrix:
-        android-abi: [x86, armeabi-v7a, arm64-v8a]
+        android-abi: [arm64-v8a]
         artifact-mode: [EXECUTABLE, SHARED_LIBRARY]
 
     runs-on: ubuntu-latest
